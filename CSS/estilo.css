@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background: black;
+}
+.container{
+    box-sizing: content-box;
+    display: inline-flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width:1300px;
+    height:70px;
+    background:black;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index:10000;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.container a:hover{
+    color:rgb(214, 175, 1);
+}
+.menu-section{
+    width:100px;
+}
+.container-presentacion{
+    display: inline-flex;
+    flex-direction: row;
+    width:1300px;
+    height:500px;
+    margin:0 0 90px 0;
+}
+.container-letras{
+    width:650px;
+    background: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.letras{
+    display: inline-flex;
+    text-align: center;
+    width:90%;
+    height:30%;
+    /*background:rgba(14, 13, 13, 0.377);*/
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size:80px;
+}
+.container-fondo{
+    background-image: url("/Recursos/pexels-photo-943096.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:700px;
+}
+.foto{
+    display:inline-flex;
+    position:relative;
+    top:30px;
+    left:90px;
+    width:250px;
+    height:250px;
+    background:rgb(214, 175, 1);
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     box-shadow: 40px 5px 3px 3px rgba(0, 0, 0, 0.500);
+}
+.container-fondo::before{
+    box-sizing: border-box;
+    content:"";
+    position: absolute;
+    width:280px;
+    height:500px;
+    background:linear-gradient(to right,rgba(0,0,0,.9),rgba(255,255,255,0));
+}
+.foto img{
+    width:65%;
+    height:80%;
+}
+.container-sobreMi{
+    box-sizing: content-box;
+    display:inline-flex;
+    flex-direction:column;
+    align-items: center;
+    width:1300px;
+    height:550px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+.titulo{
+    display: flex;
+    width:300px;
+    height:50px;
+    background:rgb(214, 175, 1);
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    color: white;
+    
+    border-radius: 5px;
+    box-shadow: 10px 5px 3px 3px rgba(17, 17, 17, 0.582);
+}
+.contenido{
+    display: inline-flex;
+    flex-direction: row;
+    height:450px;
+    width: auto;
+    
+}
+.informacion{
+    width:700px;
+    padding:15px;
+}
+.section{
+    display:inline-grid;
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px; 
+    margin-top:10px;
+    grid-template-columns: 200px 220px;
+    grid-template-rows:50px 50px 50px;
+    background: black;
+    border: 1px rgb(214, 175, 1) solid;
+}
+.container-main-habilidades{
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-habilidades{
+    display: inline-grid;
+    height:550px;
+    grid-template-columns:200px 200px 200px 200px 200px;
+    grid-template-rows:200px 200px;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}
+.habilidades{
+    width: 200px;
+    height: 200px;
+    opacity:1;
+    filter: brightness(1);
+    transition: all .8s ease-in-out;
+}
+
+.habilidades img{
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.container-carrusel{
+    display:inline-flex;
+    flex-direction: column;
+    width:1010px;
+    height:550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-carrusel-imagen{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width:1000px;
+    height:450px;
+}
+.controlador{
+    width: 25px;
+    height:40px;
+    color: white;   
+}
+.controlador img{
+    width: 25px;
+    height: 35px;
+}
+.imagen{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:950px;
+    height:430px;
+}
+.imagen img{
+    width:940px;
+    height: 420px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
