@@ -64,7 +64,7 @@ body{
     font-size:80px;
 }
 .container-fondo{
-    background-image: url("/Recursos/pexels-photo-943096.webp");
+    background-image: url("../Recursos/pexels-photo-943096.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width:700px;
