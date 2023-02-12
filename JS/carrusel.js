@@ -1,4 +1,4 @@
-let imagenes = ["/Recursos/Youtube.png","/Recursos/Bars.png","/Recursos/PokeApi.PNG"];
+let imagenes = ["/../Recursos/Youtube.png","/../Recursos/Bars.png","/../Recursos/PokeApi.PNG"];
 let flechas = document.querySelectorAll(".controlador");
 
 let izquierda = document.getElementById("izquierda");
