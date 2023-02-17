@@ -1,12 +1,13 @@
 .container-carrusel{
-    
+    margin-top: 30px;
     box-sizing: border-box;
     display:inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height:500px
+    height:570px;
+    
 }
 .container-carrusel .section-image{
     display: inline-flex;
@@ -24,6 +25,9 @@
 .flechas img{
     width: 50px;
     height: 50px;
+}
+.section-image{
+    margin-top: 25px;
 }
 .section-image img{
     width: 920px;

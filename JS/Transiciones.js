@@ -1,7 +1,7 @@
 let cajaHabilidad = document.querySelectorAll(".habilidades");
 cajaHabilidad.forEach(element => {
     element.addEventListener("mousemove",(e)=>{
-            element.style.transform = "scale(1.1)"
+            element.style.transform = "scale(1.3)"
            /* element.style.filter = "brightness(1.5)"*/
             
     })

@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: 'Lato', sans-serif;
+    
 
 }
 body{
     background: black;
 }
 .container{
+    font-family: 'Lato', sans-serif;
     box-sizing: content-box;
     display: inline-flex;
     flex-direction: column;
@@ -26,7 +27,6 @@ body{
     height:70px;
     background:black;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
     position: sticky;
     top: 0px;
     z-index:10000;
@@ -141,25 +141,78 @@ section{
 }
 .container-habilidades{
     display: inline-flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height:100px;
+    height:150px;
 }
 .habilidades{
     display: inline-flex;
     flex-direction: column;
-    width:80px;
-    height: 60px;
-    color: white;
+    margin-left: 5px;
+    width: 130px;
+    height: 90px;
+    background: rgba(19, 19, 19, 0.842);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
     justify-content: center;
-    text-align: center;
-    margin-right: 5px;
+    align-items: center;
+    scale: 1;
+    transition: all 1s;
 }
 .habilidades img{
     width:70px;
     height: 60px;
-
+}
+.flechas{
+    opacity:.4;
+    scale:1;
+    transition: all 1s;
+}
+.flechas:hover{
+    scale:1.2;
+    opacity:1;
+}
+.footer{
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100px;
+    background: #0c0c0c;
+    color: white;
+}
+.footer-nombre{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.footer-info div{
+    font-size: 16px;
+    height: 26px;
+    margin-right: 15px;
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+.redes{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+.redes img{
+    object-fit: contain;
+    width:25px;
+    height:25px ;
+}
+.redes a{
+    margin-left:7px;
 }
